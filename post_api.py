@@ -33,18 +33,6 @@ if __name__ == '__main__':
         th1 = Thread(target=get_post, args=(1,))
         th1.start()
         th1.join()
-        #
-        # th2 = Thread(target=get_post, args=(1,))
-        # th3 = Thread(target=get_post, args=(1,))
-        # th4 = Thread(target=get_post, args=(1,))
-        # th2.start()
-        # th3.start()
-        # th4.start()
-        #
-        # th1.join()
-        # th2.join()
-        # th3.join()
-        # th4.join()
 
 
 
